@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Alien Abduction Admin Screen</title>
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<style>
+aside, article, section, header, footer, nav {
+	display: block;
+}
+html, body {
+	margin: 0;
+	padding: 0;
+}
+html {
+	background: rgba(122, 143, 127, 1);
+}
+body {
+	width: 90%;
+	min-width: 960px;
+	max-width: 1200px;
+	background: rgb(237, 228, 214);
+	margin: 0 auto;
+	font: 100% Georgia, "Times New Roman", Times, serif;
+	padding: .5em;
+}
+header {
+	background: rgb(76, 67, 65);
+	margin-bottom: 20px;
+}
+header h1 {
+	font: normal 2em Arial, Helvetica, sans-serif;
+	color: white;
+	text-align: center;
+	line-height: 4em;
+	text-transform: uppercase;
+	letter-spacing:.1em;
+	margin: 0;
+}
+nav {text-align: center; padding:  1em;}
+nav ul { list-style-type: none;}
+nav li { display: inline;}
+nav a { padding: 1em; 
+	font: normal 1em Arial, Helvetica, sans-serif;
+}
+a:link, a:visited  { color: rgb(76, 67, 65);}
+form {display: inline;padding: 1em;} 
+input { padding: .5em; }
+table {	margin-left: auto;
+		margin-right: auto;
+		width: 80%;
+		padding: .5em;}
+td, th { padding: .15em .15em 1em .15em; text-align: left;}
+caption { font-size: 120%; font-weight: bold;}
+main { padding: 1em;}
+</style>
+</head>
+<body>
+<header>
+<h1>Alien Abduction Admin Screen</h1>
+</header>
+<nav>
+<ul>
+	<li><a href="#">View All</a></li>
+	<li><a href="#">Add</a></li>
+
+	<li><a href="#">Logout</a></li>
+	<li><form method="post" action="">
+		<input type="text" name="search" id="search" placeholder="Search">
+		<input type="submit">
+		</form></li>
+</ul>
+</nav>
+
